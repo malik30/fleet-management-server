@@ -1,13 +1,13 @@
-# WebSocket Server Application
+# Fleet Management Server Application
 
-This project is a WebSocket server application that listens on a specified IP address and port. It is designed to send two .mp3 audio files to clients upon connection and to transmit the server's current latitude and longitude every minute.
+This project is a websocket server application that listens on a specified IP address and port. It is designed to send two .mp3 audio files to clients upon connection and to transmit the server's current latitude and longitude every minute.
 
 ## Project Structure
 
 ```
-websocket-server
+fleet-management-server
 ├── src
-│   ├── server.ts          # Entry point for the WebSocket server
+│   ├── server.ts          # Entry point for the websocket server
 │   ├── config
 │   │   └── settings.ts    # Configuration settings for the server
 │   ├── types
@@ -27,7 +27,7 @@ websocket-server
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd websocket-server
+   cd fleet-management-server
    ```
 
 2. **Install dependencies**:
